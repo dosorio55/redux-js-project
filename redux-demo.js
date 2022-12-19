@@ -11,7 +11,7 @@ const counterReducer = (state = { counter: 0 }, action) => {
     }
 }
 
-
+//los parámetros de esta función recive el reducer
 const store = redux.createStore(counterReducer)
 
 //suscription, THIS HAPPENDS EVERYTIME we send a dispatch
